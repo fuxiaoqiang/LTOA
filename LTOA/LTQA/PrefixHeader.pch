@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  LTQA
+//
+//  Created by 付晓强 on 16/10/14.
+//  Copyright © 2016年 付晓强. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#define MainScreen [[UIScreen mainScreen] bounds]
+#define RGBA(R,G,B,A) [UIColor colorWithRed:R/255.0f green:G/255.0f blue:B/255.0f alpha:A]
+
+#define W MainScreen.size.width/320
+
+#define H MainScreen.size.height/568
+
+#define OAActiveUrl @"http://oa.p.longtugame.com/Api/Login/applycode"
+#define OARefreshUrl @"http://oa.p.longtugame.com/Api/Login/getstatus"
+#define OAUrl  @"http://oa.p.longtugame.com"
+#endif /* PrefixHeader_pch */
